@@ -1,6 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
+/* body {
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+} */
+
+
+
 *{
     font-family: 'Nunito', sans-serif;
     margin: 0; padding: 0;
@@ -60,9 +70,9 @@ header{
 }
 
 header .user img{
-    height: 20rem;
-    width: 12rem;
-    /* border-radius: 50%; */
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
     border: .7rem solid #f9ca24;
@@ -134,4 +144,23 @@ header .navbar ul li a:hover{
     #menu{
         display: block;
     }
+
+    header.toggle{
+        left: 0%;
+    }
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+
+}
+
+
+@media (max-width: 400px){
+    header{
+        width: 100vw;
+    }
+
 }
