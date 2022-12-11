@@ -198,6 +198,10 @@ header .navbar ul li a:hover{
 }
 
 .about p{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 1rem 0;
     font-size: 2rem;
     color: #eee;
     padding: 1rem 0;
